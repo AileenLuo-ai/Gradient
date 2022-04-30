@@ -1,46 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+
 body {
- /*   background: conic-gradient(from 0deg at 50% 50%, #096BFF 0deg, #1000CB 93.12deg, #100074 243.12deg, #000F5F 360deg),
-linear-gradient(0deg, #FFFFFF, #FFFFFF); */
-  background-color: black;
+  background: conic-gradient(from 0deg at 50% 50%, #096BFF 0deg, #1000CB 93.12deg, #100074 243.12deg, #000F5F 360deg),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
   padding: none;
   margin: none;
-
+  display: flex;
+  flex-direction: column;
 }
 
-/* styleName: Caption/Nav; */
-ul, li, a { 
+/* styleName: Caption/Nav; a is display inline, default div is set to block */
+.nav_links a { 
   list-style-type: none; 
   font-family: 'Darker Grotesque', sans-serif;
   color: #FFFFFF;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 33px;
+  font-size: 1.5rem;
+  font-weight: 500;
   letter-spacing: 0.2em;
   text-align: left;
 }
 
-
-
 .logo {
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
   background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #D6D6D6 100%);
   border: 0.5px solid #CFCFCF;
   box-sizing: border-box;
   border-radius: 100%;
 }
 
+/* old
 header {
   display: flex;
   justify-content: space-between;
-  position: absolute;
   align-items: center;
-  padding: 2rem 1rem;
-  width: calc(100vw-2rem);
-  height: 7rem;
-  left: 2em;
-  top: 6em;
+  padding: 1rem 2rem;
+  position: sticky;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  top: 2rem;
+  background: #FFFFFF1A;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  backdrop-filter: blur(10em);
+  border-radius: 6rem;
+}
+*/
+
+header {
+  display: flex;
+  gap: 800px;
+  align-items: center;
+  padding: .5rem 1rem;
+  position: absolute;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  /* determines sticky position */
+  top: 2rem;
   background: #FFFFFF1A;
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
@@ -50,17 +66,80 @@ header {
 }
 
 .nav_links li {
-  display: inline-block;
-  text-decoration: none; 
-  padding: 1rem 2rem;
+  display: inline;
+  padding: 2rem;
 }
 
 .nav_links li a {
-  transition: all;
-  transition-duration: 300ms;
-  transition: ease-out;
+  text-decoration: none; 
 }
 
 .nav_links li a:hover {
-  text-decoration: none; 
+  opacity: 0.2; 
+  transition: ease-out;
+  transition-duration: 500ms;
+}
+
+.material-symbols-outlined {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: Darker Grotesque;
+  color: #FFFFFF;
+  font-size: 184px;
+  font-weight: 500;
+  line-height: 184px;
+  text-align: center;
+}
+
+h4 {
+  font-family: Darker Grotesque;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 2rem;
+  letter-spacing: 0.2em;
+  text-align: center;
+  display: inline;
+} 
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem 1rem;
+  outline: 1px solid white;
+  text-decoration: none;
+  border-radius: 6rem;
+  width: 400px;
+  margin: auto;
+}
+
+.intro {
+  gap: 2rem;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.buttontext{
+  color: #FFFFFF;
+  font-family: Darker Grotesque;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px 10px;
+}
+
+.material-symbols-outlined {
+  font-family: Material Icons;
+}
+
+.caption {
+  margin: auto;
 }
