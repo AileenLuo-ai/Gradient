@@ -1,0 +1,92 @@
+ /* left side section, curated links */
+
+ #links {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(251.64deg, #110079 2.59%, #0031DE 35.99%, #5649ED 71.24%, #7E68FF 98.33%);
+
+}
+
+#curatedlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 50vw;
+    padding: 6rem 7rem;
+    height: 76vh;
+}
+
+/* should override text style size (2rem)*/
+.material-symbols-outlined .large { 
+    font-size: 4rem !important;
+}
+
+.svg_pearl {
+    width: 20rem;
+}
+
+#box1, #box2, #box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ /* right side section, about gradients */
+
+.vertical {
+    box-sizing: border-box;
+}
+
+#aboutgradients {
+    width: 50vw;
+    padding: 6rem 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: 76vh;
+}
+
+.footer_nav {
+    background: conic-gradient(rgb(0, 17, 130), rgb(19, 0, 89));
+    height: 280px;
+}
+
+
+#credit {
+    position: relative;
+    top: 80px;
+}
+
+.footer_nav > p {
+    position: relative;
+    top: 100px;
+}
+
+.footer_nav > * {
+    padding-left: 100px;
+}
+
+a.website {
+    color: #FFFFFF;
+    text-decoration: underline;
+  }
+
+
+body {
+    margin: 15px;
+    color: #FFFFFF;
+}
+
+a.website a:hover {
+    opacity: 0.2; 
+    transition: ease-out;
+    transition-duration: 500ms;
+  }
+
+  .vertical {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 20px;
+    background-color: #FFFFFF;
+  }
