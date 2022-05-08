@@ -10,6 +10,8 @@
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/intro.css">
+  <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/textstyles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -29,25 +31,69 @@
   <header id="navbar">
 
     <div class="logo"> </div>
-    <nav> 
-      <ul class="nav_links">
-        <li><a href="#generator">GENERATOR</a></li>
-        <li><a href="#links">LINKS</a></li>
-        <li><a href="#credits">CREDITS</a></li>
-      </ul>
-    </nav>
-  </header>
+      <nav> 
+        <ul class="nav_links">
+          <li><a href="#generator">GENERATOR</a></li>
+          <li><a href="#links">LINKS</a></li>
+          <li><a href="#credits">CREDITS</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <div class="intro">
-    <div class="caption"><h4>welcome to</h4></div>
-    <div class="title"><h1>conic gradients</h1></div>
-</div>
-  
-  <div class="container"><a href="#links">
-    <span class="buttontext">read about CSS gradients</span>
-    <span class="material-symbols-outlined"> arrow_downward</span>
-  </a></div>
-  
+  <div id="intro">
+      <div id="caption"><h4>welcome to</h4></div>
+      <div id="title"><h1>conic gradients</h1></div>
+    
+    <div id="button"><a href="#links">
+      <span class="buttontext">read about CSS gradients</span>
+      <span class="material-symbols-outlined"> arrow_downward</span>
+    </a></div>
+  </div>
+
+  <div id="generator">
+   
+    <div id="conicgradient">
+    </div>
+
+    <div id="randomize"><a href="#links">
+      <span class="randomtext"><h4>generate</h4></span>
+      <span class="material-symbols-outlined">autorenew</span>
+    </a></div>
+        
+  </div>
+
+  <main id="links">
+    <section id="curatedlinks">
+     <a href="https://www.conic.style/">
+        <span><h2>conic gradients</h2></span>
+        <span class="material-symbols-outlined"> arrow_downward</span>
+     </a>
+     <a href="https://web.dev/learn/css/gradients/">
+        <span><h2>web.dev</h2></span>
+        <span class="material-symbols-outlined"> arrow_downward</span>
+     </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/conic-gradient">
+        <span><h2>MDN</h2></span>
+        <span class="material-symbols-outlined"> arrow_downward</span>
+      </a>
+
+      <img src="file:///C:/Users/luoai/OneDrive/Documents/VS%20Code/Gradient/assets/fancypearl.svg" alt="Fancy pearl art">
+    </section>
+
+    <section id="aboutgradients">
+      <h4>about gradients</h4> 
+        <p> This was a fun passion project of mine where I coded a random generator for my favorite type of gradient. I started in Figma and moved to VS Code to use CSS and HTML to create this website. Hope you enjoy :)
+        </p>
+      </br>
+        <p>
+          /* conic gradient*/
+          background: conic-gradient(white, black);
+          background: conic-gradient(from 10deg at 20% 30%, white, black);
+          background: conic-gradient(at 0% 30%, red 10%, yellow 30%, #1e90ff 50%);
+        </p>
+    </section>
+  </main>
+ 
   <iframe src='https://my.spline.design/untitled-b20861b252d63e641e891ba219bef6ab/' frameborder='0' width='100%' height='100%'></iframe>
 
-  <body>
+<body>

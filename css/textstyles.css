@@ -2,6 +2,7 @@
 
 .material-symbols-outlined {
     color: #FFFFFF;
+    font-size: 32px;
   }
   
   h1 {
@@ -13,28 +14,36 @@
     text-align: center;
   }
   
+  h2 {
+    font-family: Darker Grotesque;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0.2em;
+    text-align: center;
+
+  }
+
   h4 {
     font-family: Darker Grotesque;
     font-size: 2rem;
     color: #FFFFFF;
+    font-family: Darker Grotesque;
+    font-size: 84px;
     font-weight: 600;
-    text-transform: uppercase;
-    line-height: 2rem;
-    letter-spacing: 0.2em;
-    text-align: center;
-    display: inline;
+    line-height: 114px;
+    letter-spacing: 0em;
+    text-align: left;
+
   } 
   
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 3rem 1rem;
-    outline: 1px solid white;
-    text-decoration: none;
-    border-radius: 6rem;
-    width: 400px;
-    margin: auto;
+  p {
+    font-family: Darker Grotesque;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
   }
   
