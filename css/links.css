@@ -71,22 +71,23 @@ a.website {
     text-decoration: underline;
   }
 
-
-body {
-    margin: 15px;
-    color: #FFFFFF;
-}
-
 a.website a:hover {
     opacity: 0.2; 
     transition: ease-out;
     transition-duration: 500ms;
   }
 
-  .vertical {
+.vertical {
     margin: 0;
     padding: 0;
     border: 0;
-    width: 20px;
+    width: 1px;
     background-color: #FFFFFF;
   }
+
+.horizontal {
+    margin: 0;
+    padding: 0;
+    width: 1px;
+    background-color: #FFFFFF;
+}
