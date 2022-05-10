@@ -1,26 +1,25 @@
+/* styleName: Caption/Nav; a is display inline, default div is set to block */
+.nav_links a {
+  list-style-type: none;
+  font-family: "Darker Grotesque", sans-serif;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-align: left;
+  text-transform: uppercase;
+}
 
-  /* styleName: Caption/Nav; a is display inline, default div is set to block */
-  .nav_links a { 
-    list-style-type: none; 
-    font-family: 'Darker Grotesque', sans-serif;
-    color: #FFFFFF;
-    font-size: 1.5rem;
-    font-weight: 500;
-    letter-spacing: 0.2em;
-    text-align: left;
-    text-transform: uppercase;
-  }
-  
-  .logo {
-    width: 4rem;
-    height: 4rem;
-    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #D6D6D6 100%);
-    border: 0.5px solid #CFCFCF;
-    box-sizing: border-box;
-    border-radius: 100%;
-  }
-  
-  /* old
+.logo {
+  width: 4rem;
+  height: 4rem;
+  background: radial-gradient(50% 50% at 50% 50%, #ffffff 0%, #d6d6d6 100%);
+  border: 0.5px solid #cfcfcf;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+
+/* old
   header {
     display: flex;
     justify-content: space-between;
@@ -37,46 +36,45 @@
     border-radius: 6rem;
   }
   */
-  
-  #navbar {
-    display: flex;
-    width: calc(100% - 6rem);
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 2rem;
-    position: fixed;
-    /* determines sticky position */
-    top: 2rem;
-    left: 3rem;
-    background: #ffffff0f;
-    border: 0.8px solid #ffffff75;
-    box-sizing: border-box;
-    backdrop-filter: blur(10em);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 6rem;
-    z-index: 100;
-  }
-  
-  .nav_links li {
-    display: inline;
-    padding: 2rem;
-  }
-  
-  .nav_links li a {
-    text-decoration: none; 
-  }
-  
-  .nav_links li a:hover {
-    opacity: 0.2; 
-    transition: ease-out;
-    transition-duration: 500ms;
-  }
 
-  /*
+#navbar {
+  display: flex;
+  width: calc(100% - 6rem);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  position: fixed;
+  /* determines sticky position */
+  top: 2rem;
+  left: 3rem;
+  background: #ffffff0f;
+  border: 0.8px solid #ffffff75;
+  box-sizing: border-box;
+  backdrop-filter: blur(10em);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 6rem;
+  z-index: 100;
+}
+
+.nav_links li {
+  display: inline;
+  padding: 2rem;
+}
+
+.nav_links li a {
+  text-decoration: none;
+}
+
+.nav_links li a:hover {
+  opacity: 0.2;
+  transition: ease-out;
+  transition-duration: 500ms;
+}
+
+/*
   iframe {
     width: 100px;
     height: 100px;
     background-color: black;
   }
  */
-  

@@ -26,8 +26,8 @@ body {
   align-items: center;
 }
 
-.buttontext{
-  color: #FFFFFF;
+.buttontext {
+  color: #ffffff;
   font-family: Darker Grotesque;
   font-size: 32px;
   font-weight: 300;
@@ -68,8 +68,6 @@ body {
 hr {
   stroke: 1px;
   width: 1px;
-  color: #FFFFFF;
-  outline: #FFFFFF;
-
+  color: #ffffff;
+  outline: #ffffff;
 }
-
