@@ -86,14 +86,25 @@ a.website a:hover {
 .vertical {
   margin: 0;
   padding: 0;
-  border: 0;
   width: 1px;
-  background-color: #ffffff;
-}
+  height: 1px;
+  border: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  outline: #ffffff;}
 
 .horizontal {
   margin: 0;
   padding: 0;
   width: 1px;
-  background-color: #ffffff;
-}
+  height: 1px;
+  border: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  outline: #ffffff;}
+/* margin: 0;
+  padding: 0;
+  width: 1px;
+  box-sizing: border-box;
+  border-color: #ffffff; 
+  go search how does hr work*/
