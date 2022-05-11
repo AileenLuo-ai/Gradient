@@ -22,8 +22,8 @@
 }
 
 /* should override text style size (2rem)*/
-.material-symbols-outlined .large {
-  font-size: 4rem !important;
+.large.material-symbols-outlined {
+  font-size: 3rem !important;
 }
 
 .svg_pearl {
@@ -35,11 +35,11 @@
 #box3 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* gap: 4rem; */
+  align-items: baseline;
 }
 
 /* right side section, about gradients */
-
 .vertical {
   box-sizing: border-box;
 }
@@ -72,36 +72,43 @@
   padding-left: 100px;
 }
 
-a.website {
+.website {
   color: #ffffff;
   text-decoration: underline;
 }
 
-a.website a:hover {
-  opacity: 0.2;
+.website:hover {
+  opacity: 0.5;  
+}
+
+a:hover {
+  opacity: 0.3;
   transition: ease-out;
   transition-duration: 500ms;
+  text-decoration: none;
 }
 
 .vertical {
   margin: 0;
+  width: none;
+  height: none;
   padding: 0;
-  width: 1px;
-  height: 1px;
-  border: none;
   box-sizing: border-box;
   color: #ffffff;
-  outline: #ffffff;}
+  outline: #ffffff;
+}
 
 .horizontal {
   margin: 0;
   padding: 0;
-  width: 1px;
   height: 1px;
+  width: 1px;
   border: none;
   box-sizing: border-box;
   color: #ffffff;
-  outline: #ffffff;}
+  outline: #ffffff;
+}
+
 /* margin: 0;
   padding: 0;
   width: 1px;
