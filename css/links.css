@@ -101,7 +101,11 @@ a:hover {
   color: #ffffff;
 }
 */
-
+.vertical {
+  border: none;
+  background-color: white;
+  width: 1px;
+}
 .horizontal {
   margin: 0;
   padding: 0;
